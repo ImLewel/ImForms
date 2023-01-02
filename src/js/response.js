@@ -1,8 +1,8 @@
 'use strict'
 
-exports.status = (values, res) => {
+exports.status = (values, res, _code) => {
   const data = {
-    "code": 200,
+    "code": _code,
     "values": values,
 
   }
